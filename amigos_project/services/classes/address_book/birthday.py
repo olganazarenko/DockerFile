@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from amigos_project.services.classes.field import Field
+from ..field import Field
 
 
 class Birthday(Field):

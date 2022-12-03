@@ -1,5 +1,5 @@
-from amigos_project.services.utils import change_input
-from amigos_project.services.classes import save_to_file
+from services.utils import change_input
+from services.classes import save_to_file
 
 
 def main():

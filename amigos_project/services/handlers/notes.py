@@ -1,6 +1,6 @@
-from amigos_project.services.decorators import input_error
-from amigos_project.services.classes.notes import NOTES
-from amigos_project.services.classes import notes
+from services.decorators import input_error
+from services.classes.notes import NOTES
+from services.classes import notes
 
 
 @input_error

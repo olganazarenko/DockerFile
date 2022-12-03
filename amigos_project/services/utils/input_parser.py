@@ -1,6 +1,6 @@
 from types import FunctionType
 
-from amigos_project.constants import COMMANDS_DICT
+from constants import COMMANDS_DICT
 
 
 def reaction_func(reaction: str) -> FunctionType:

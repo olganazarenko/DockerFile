@@ -1,4 +1,4 @@
-from amigos_project.services.utils.sort_files import sort_files
+from services.utils.sort_files import sort_files
 
 
 def stop():

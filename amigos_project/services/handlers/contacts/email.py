@@ -1,5 +1,5 @@
-from amigos_project.services.decorators import input_error
-from amigos_project.services.classes.address_book import ADDRESS_BOOK
+from services.decorators import input_error
+from services.classes.address_book import ADDRESS_BOOK
 
 
 @input_error

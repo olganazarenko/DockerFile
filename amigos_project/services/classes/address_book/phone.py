@@ -1,6 +1,6 @@
 import re
 
-from amigos_project.services.classes.field import Field
+from ..field import Field
 
 
 class Phone(Field):

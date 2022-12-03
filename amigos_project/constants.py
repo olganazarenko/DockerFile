@@ -1,9 +1,9 @@
-from amigos_project.services.handlers.common import (
+from services.handlers.common import (
     stop,
     greeting,
     handler_sort_files,
 )
-from amigos_project.services.handlers.contacts import (
+from services.handlers.contacts import (
     add_contact,
     find_contacts,
     show_all,
@@ -17,7 +17,7 @@ from amigos_project.services.handlers.contacts import (
     update_address,
     delete_address,
 )
-from amigos_project.services.handlers.notes import (
+from services.handlers.notes import (
     add_note,
     delete_note,
     show_notes,

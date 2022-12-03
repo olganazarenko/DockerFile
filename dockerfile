@@ -5,8 +5,6 @@ FROM python:3.10
 WORKDIR /app/amigos_project
 
 
-#EXPOSE 5000
-
 #copies files from a local source location to a destination
 #in the Docker container created by "app"
 COPY . /app
@@ -16,10 +14,7 @@ COPY . /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-#RUN export PYTHONPATH="$PYTHONPATH:/app"
 
-
-ENV PYTHONPATH "${PYTHONPATH}:/app/amigos_project
 #CMD instruction should be used to run the software
 #contained by your image, along with any arguments.
 CMD ["python", "main.py"]
