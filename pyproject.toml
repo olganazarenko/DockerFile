@@ -1,7 +1,7 @@
 [tool.pip]
 name = "pip-project"
 version = "0.1.0"
-description = "Amigos_project built with Pip"
+description = "Amigos_project built with Pipenv"
 authors = ["Olga Nazarenko <user@gmail.com>"]
 license = "MIT"
 readme = "README.md"
